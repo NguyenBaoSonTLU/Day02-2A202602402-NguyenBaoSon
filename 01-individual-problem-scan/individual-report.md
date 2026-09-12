@@ -2,8 +2,8 @@
 
 - Họ và tên: Nguyễn Bảo Sơn 
 - Mã học viên: 2A202602402
-- Vai trò / bối cảnh (VD: sinh viên năm X, intern PM, ...): intern Dev
-- Công việc hằng tuần (3-5 gạch đầu dòng để soi problem):
+- Vai trò / bối cảnh : intern Dev
+- Công việc hằng tuần:
     Ngại hỏi khi bị block hoặc chưa biết cách đặt câu hỏi.
     Dễ tập trung vào “code chạy được” nhưng chưa chú ý maintainability.
 
