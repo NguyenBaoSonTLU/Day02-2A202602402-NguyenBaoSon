@@ -39,11 +39,11 @@ Các vấn đề chưa đủ tần suất hoặc không gây ảnh hưởng lớ
 
 ### 2.1. Chọn top 3
 
-| Rank | Problem (copy từ bảng scan)| Vì sao chọn (2-3 ý)|Điều còn chưa chắc |
-| 1    | Giáo viên tiểu học mất nhiều thời gian tạo bài tập Toán phù hợp với nhiều mức năng lực trong cùng một lớp học. | - Actor rõ: giáo viên tiểu học là người trực tiếp thực hiện.<br>- Workflow có thể vẽ được: phân loại năng lực học sinh → chọn mục tiêu bài học → tạo bài tập → điều chỉnh độ khó → gửi học sinh.<br>- Bottleneck nằm ở bước tạo/chỉnh nhiều phiên bản bài tập; impact đo được bằng thời gian soạn bài, số phiên bản tạo mỗi tuần. | - Chưa biết giáo viên thực tế mất bao nhiêu thời gian cho việc tạo bài tập.<br>- Chưa rõ họ có thường xuyên tạo nhiều phiên bản hay chỉ dùng chung tài liệu.<br>- Cần xác định tiêu chí phân hóa bài tập hiện tại.         |
-| 2    | Giáo viên không đủ thời gian nghe và sửa lỗi đọc cho từng học sinh lớp 1 mỗi ngày.| - Actor rõ: giáo viên lớp 1 và học sinh cần luyện đọc.<br>- Workflow rõ: giao bài đọc → học sinh đọc → giáo viên nghe → ghi lỗi phát âm → phản hồi → theo dõi tiến bộ.<br>- Bottleneck nằm ở bước nghe và phản hồi từng học sinh; impact đo được bằng số học sinh được sửa đọc/tuần, thời gian giáo viên dành cho luyện đọc.| - Chưa biết giáo viên hiện dành bao nhiêu phút/ngày cho việc nghe đọc.<br>- Chưa rõ lỗi phát âm có đủ nghiêm trọng để cần AI hỗ trợ không.<br>- Cần kiểm chứng mức độ chấp nhận việc học sinh dùng AI giọng nói.           |
-| 3    | Giáo viên mất nhiều thời gian chuẩn bị nội dung dạy học và viết nhận xét cá nhân cho học sinh.| - Actor rõ: giáo viên là người thực hiện chính.<br>- Có workflow cụ thể: tìm tài liệu → chọn nội dung → chỉnh sửa giáo án → dạy học → tổng hợp kết quả → viết nhận xét.<br>- Impact có thể đo bằng thời gian chuẩn bị bài, số nhận xét phải viết mỗi kỳ.| - Problem đang quá rộng, có thể tách thành 2 bài toán khác nhau (chuẩn bị bài và viết nhận xét).<br>- Chưa xác định bước nào là bottleneck lớn nhất.<br>- Cần tìm workflow gây mất thời gian nhất trước khi xây giải pháp. |
-
+| Rank | Problem  | Vì sao chọn  | Điều còn chưa chắc |
+|---|---|---|---|
+| 1 | Giáo viên tiểu học mất nhiều thời gian tạo bài tập Toán phù hợp với nhiều mức năng lực trong cùng một lớp học. | - Actor rõ: giáo viên tiểu học là người trực tiếp thực hiện.<br>- Workflow có thể vẽ được: phân loại năng lực học sinh → chọn mục tiêu bài học → tạo bài tập → điều chỉnh độ khó → gửi học sinh.<br>- Bottleneck nằm ở bước tạo/chỉnh nhiều phiên bản bài tập; impact đo được bằng thời gian soạn bài, số phiên bản tạo mỗi tuần. | - Chưa biết giáo viên thực tế mất bao nhiêu thời gian cho việc tạo bài tập.<br>- Chưa rõ họ có thường xuyên tạo nhiều phiên bản hay chỉ dùng chung tài liệu.<br>- Cần xác định tiêu chí phân hóa bài tập hiện tại. |
+| 2 | Giáo viên không đủ thời gian nghe và sửa lỗi đọc cho từng học sinh lớp 1 mỗi ngày. | - Actor rõ: giáo viên lớp 1 và học sinh cần luyện đọc.<br>- Workflow rõ: giao bài đọc → học sinh đọc → giáo viên nghe → ghi lỗi phát âm → phản hồi → theo dõi tiến bộ.<br>- Bottleneck nằm ở bước nghe và phản hồi từng học sinh; impact đo được bằng số học sinh được sửa đọc/tuần, thời gian giáo viên dành cho luyện đọc. | - Chưa biết giáo viên hiện dành bao nhiêu phút/ngày cho việc nghe đọc.<br>- Chưa rõ lỗi phát âm có đủ nghiêm trọng để cần AI hỗ trợ không.<br>- Cần kiểm chứng mức độ chấp nhận việc học sinh dùng AI giọng nói. |
+| 3 | Giáo viên mất nhiều thời gian chuẩn bị nội dung dạy học và viết nhận xét cá nhân cho học sinh. | - Actor rõ: giáo viên là người thực hiện chính.<br>- Workflow cụ thể: tìm tài liệu → chọn nội dung → chỉnh sửa giáo án → dạy học → tổng hợp kết quả → viết nhận xét.<br>- Impact có thể đo bằng thời gian chuẩn bị bài, số nhận xét phải viết mỗi kỳ. | - Problem đang quá rộng, có thể tách thành 2 bài toán khác nhau (chuẩn bị bài và viết nhận xét).<br>- Chưa xác định bước nào là bottleneck lớn nhất.<br>- Cần tìm workflow gây mất thời gian nhất trước khi xây giải pháp. |
 
 ### 2.2. Problem Cards chi tiết (lặp lại cho cả 3 cards)
 
@@ -118,144 +118,160 @@ Giáo viên review, chỉnh sửa và quyết định bài tập cuối cùng tr
 Draft current workflow
 CURRENT STATE — 180–300 phút/tuần
 
-[1 Xác định mục tiêu bài học: 15']
+1 Xác định mục tiêu bài học: 15'
 
-→ [2 Phân loại mức năng lực học sinh: 30']
+→ 2 Phân loại mức năng lực học sinh: 30'
 
-→ [3 Tạo nhiều phiên bản bài tập: 120–180'] <-- bottleneck
+→ 3 Tạo nhiều phiên bản bài tập: 120–180' <-- bottleneck
 
-→ [4 Giao bài: 10']
+→ 4 Giao bài: 10'
 
-→ [5 Chấm bài + ghi nhận lỗi: 30–60']
+→ 5 Chấm bài + ghi nhận lỗi: 30–60'
 
-→ [6 Điều chỉnh bài tiếp theo: 15']
+→ 6 Điều chỉnh bài tiếp theo: 15'
 Draft future workflow
 FUTURE STATE — 45–60 phút/tuần
 
-[1 Giáo viên nhập mục tiêu bài học + nhóm năng lực: 5']
+1 Giáo viên nhập mục tiêu bài học + nhóm năng lực: 5'
 
-→ [2 AI Agent tạo bộ bài tập theo mức độ: 5']
+→ 2 AI Agent tạo bộ bài tập theo mức độ: 5'
 
-→ [3 AI gợi ý điều chỉnh độ khó + đáp án: 5']
+→ 3 AI gợi ý điều chỉnh độ khó + đáp án: 5'
 
-→ [4 Giáo viên review + chỉnh sửa: 30–45'] <-- human boundary
+→ 4 Giáo viên review + chỉnh sửa: 30–45'] <-- human boundary
 
-→ [5 Giao bài cho học sinh: 5']
+→ 5 Giao bài cho học sinh: 5'
 
 Fallback:
 AI tạo bài chưa phù hợp → giáo viên chỉnh prompt hoặc sửa thủ công
 
-#### PROBLEM CARD #02 — AI hỗ trợ chuẩn bị giáo án và viết nhận xét học sinh 
+# PROBLEM CARD #02 — AI hỗ trợ chuẩn bị giáo án và viết nhận xét học sinh
 
-│ │
-│ Problem 1 câu: │
-│ Giáo viên lớp 1 mất nhiều thời gian chuẩn bị │
-│ giáo án, thiết kế hoạt động học tập và viết │
-│ nhận xét cá nhân cho học sinh sau mỗi buổi │
-│ học. │
-│ │
-│ Ai chịu ảnh hưởng? │
-│ Giáo viên lớp 1, tổ chuyên môn, học sinh. │
-│ │
-│ Thời điểm / bối cảnh: │
-│ Trước mỗi buổi dạy và cuối ngày sau khi kết │
-│ thúc tiết học, đặc biệt khi giáo viên cần │
-│ chuẩn bị bài mới hoặc tổng hợp đánh giá học │
-│ sinh. │
-│ │
-│ Workflow hiện tại: │
-│ │
-│ 1. Tìm tài liệu từ giáo án cũ, file cá nhân │
-│ hoặc nguồn chia sẻ │
-│ → 2. Chọn nội dung phù hợp với mục tiêu bài │
-│ học │
-│ → 3. Soạn giáo án và thiết kế hoạt động │
-│ trên lớp │
-│ → 4. Chuẩn bị bài tập/phiếu học tập │
-│ → 5. Sau giờ học ghi nhận tình hình học tập │
-│ → 6. Viết nhận xét cá nhân cho từng học │
-│ sinh │
-│ │
-│ Bước nghẽn nhất: │
-│ Bước 2-3 — tổng hợp tài liệu và chuyển │
-│ thành giáo án/hoạt động phù hợp với lớp. │
-│ │
-│ Giáo viên phải tự chọn nội dung, điều chỉnh │
-│ mức độ và viết lại nhiều phần thủ công. │
-│ (30–60 phút/lần chuẩn bị bài) │
-│ │
-│ Impact: │
-│ Giáo viên mất khoảng 5–8 giờ/tuần cho │
-│ việc chuẩn bị bài và viết nhận xét. │
-│ │
-│ Với lớp 30–40 học sinh, việc viết nhận │
-│ xét cá nhân có thể mất thêm 1–3 giờ/cuối │
-│ tuần. │
-│ │
-│ Đo thành công bằng gì? │
-│ Giảm thời gian chuẩn bị bài từ **5–8 giờ/tuần│
-│ xuống còn 2–3 giờ/tuần. │
-│ │
-│ Giảm thời gian viết nhận xét cá nhân ít │
-│ nhất 50–70% nhưng vẫn giữ được tính │
-│ cá nhân hóa. │
-│ │
-│ Non-AI alternative: │
-│ Template giáo án, thư viện bài giảng có │
-│ sẵn, checklist chuẩn bị bài. │
-│ │
-│ Các cách này giúp giảm thời gian format │
-│ nhưng giáo viên vẫn phải tự tìm, chọn và │
-│ viết nội dung. │
-│ │
-│ AI hypothesis: │
-│ AI Agent đọc mục tiêu bài học, tài liệu có │
-│ sẵn và thông tin lớp học để đề xuất giáo │
-│ án, hoạt động, bài tập và draft nhận xét │
-│ cá nhân. │
-│ │
-│ Giáo viên review, chỉnh sửa và quyết định │
-│ nội dung cuối cùng trước khi sử dụng. │
-│ │
-│ Quick gut: │
-│ ☐ No AI │
-│ ☐ Rule │
-│ ☐ Workflow │
-│ ☑ Agent │
-│ ☐ Chưa biết │
-└──────────────────────────────────────────────┘
+## Problem 1 câu:
 
-Draft current workflow
-CURRENT STATE — 5–8 giờ/tuần
+Giáo viên lớp 1 mất nhiều thời gian chuẩn bị giáo án, thiết kế hoạt động học tập và viết nhận xét cá nhân cho học sinh sau mỗi buổi học.
 
-[1 Tìm tài liệu cũ + nguồn tham khảo: 60']
+## Ai chịu ảnh hưởng?
 
-→ [2 Chọn nội dung phù hợp mục tiêu bài học: 60']
+Giáo viên lớp 1, tổ chuyên môn, học sinh.
 
-→ [3 Soạn giáo án + thiết kế hoạt động: 120–180'] <-- bottleneck
+## Thời điểm / bối cảnh:
 
-→ [4 Chuẩn bị bài tập/phiếu học tập: 60']
+Trước mỗi buổi dạy và cuối ngày sau khi kết thúc tiết học, đặc biệt khi giáo viên cần chuẩn bị bài mới hoặc tổng hợp đánh giá học sinh.
 
-→ [5 Ghi nhận tiến độ học sinh: 30']
+---
 
-→ [6 Viết nhận xét cá nhân: 60–180']
-Draft future workflow
-FUTURE STATE — 2–3 giờ/tuần
+## Workflow hiện tại:
 
-[1 Giáo viên nhập mục tiêu bài học + thông tin lớp: 10']
+1. Tìm tài liệu từ giáo án cũ, file cá nhân hoặc nguồn chia sẻ
 
-→ [2 AI Agent tìm và tổng hợp tài liệu phù hợp: 5']
+→ 2. Chọn nội dung phù hợp với mục tiêu bài học
 
-→ [3 AI tạo draft giáo án + hoạt động + bài tập: 5']
+→ 3. Soạn giáo án và thiết kế hoạt động trên lớp
 
-→ [4 AI draft nhận xét theo dữ liệu học sinh: 5']
+→ 4. Chuẩn bị bài tập/phiếu học tập
 
-→ [5 Giáo viên review + chỉnh sửa: 90–150'] <-- human boundary
+→ 5. Sau giờ học ghi nhận tình hình học tập
 
-→ [6 Xuất bản giáo án / gửi nhận xét: 10']
+→ 6. Viết nhận xét cá nhân cho từng học sinh
 
-Fallback:
-AI đề xuất chưa phù hợp → giáo viên sửa nội dung thủ công
+
+## Bước nghẽn nhất:
+
+**Bước 2-3 — Tổng hợp tài liệu và chuyển thành giáo án/hoạt động phù hợp với lớp.**
+
+Giáo viên phải tự chọn nội dung, điều chỉnh mức độ và viết lại nhiều phần thủ công.
+
+(30–60 phút/lần chuẩn bị bài)
+
+---
+
+## Impact:
+
+- Giáo viên mất khoảng **5–8 giờ/tuần** cho việc chuẩn bị bài và viết nhận xét.
+- Với lớp **30–40 học sinh**, việc viết nhận xét cá nhân có thể mất thêm **1–3 giờ/cuối tuần**.
+
+---
+
+## Đo thành công bằng gì?
+
+- Giảm thời gian chuẩn bị bài từ **5–8 giờ/tuần** xuống còn **2–3 giờ/tuần**.
+- Giảm thời gian viết nhận xét cá nhân ít nhất **50–70%** nhưng vẫn giữ được tính cá nhân hóa.
+- Đảm bảo giáo viên vẫn kiểm soát nội dung cuối cùng trước khi sử dụng.
+
+---
+
+## Non-AI alternative:
+
+Template giáo án, thư viện bài giảng có sẵn, checklist chuẩn bị bài.
+
+Các cách này giúp giảm thời gian format nhưng giáo viên vẫn phải tự tìm, chọn và viết nội dung.
+
+---
+
+## AI hypothesis:
+
+AI Agent đọc mục tiêu bài học, tài liệu có sẵn và thông tin lớp học để đề xuất:
+
+- Giáo án phù hợp với mục tiêu bài học.
+- Hoạt động học tập trên lớp.
+- Bài tập/phiếu học tập.
+- Draft nhận xét cá nhân cho từng học sinh.
+
+Giáo viên review, chỉnh sửa và quyết định nội dung cuối cùng trước khi sử dụng.
+
+
+## Quick gut:
+
+☐ No AI  
+☐ Rule  
+☐ Workflow  
+☑ Agent  
+☐ Chưa biết  
+
+---
+
+# Draft current workflow
+
+## CURRENT STATE — 5–8 giờ/tuần
+
+
+1 Tìm tài liệu cũ + nguồn tham khảo: 60'
+
+→ 2 Chọn nội dung phù hợp mục tiêu bài học: 60'
+
+→ 3 Soạn giáo án + thiết kế hoạt động: 120–180' <-- bottleneck
+
+→ 4 Chuẩn bị bài tập/phiếu học tập: 60'
+
+→ 5 Ghi nhận tiến độ học sinh: 30'
+
+→ 6 Viết nhận xét cá nhân: 60–180'
+
+# Draft future workflow
+
+## FUTURE STATE — 2–3 giờ/tuần
+
+
+1 Giáo viên nhập mục tiêu bài học + thông tin lớp: 10'
+
+→ 2 AI Agent tìm và tổng hợp tài liệu phù hợp: 5'
+
+→ 3 AI tạo draft giáo án + hoạt động + bài tập: 5'
+
+→ 4 AI draft nhận xét theo dữ liệu học sinh: 5'
+
+→ 5 Giáo viên review + chỉnh sửa: 90–150' <-- human boundary
+
+→ 6 Xuất bản giáo án / gửi nhận xét: 10'
+
+## Fallback:
+
+AI đề xuất chưa phù hợp
+
+→ Giáo viên chỉnh sửa nội dung thủ công
+
+→ Quyết định phiên bản cuối cùng
 
 #### ROBLEM CARD #03 — AI Reading Coach lớp 1 
 
@@ -326,25 +342,25 @@ Quick gut:
 Draft current workflow
 CURRENT STATE — 150–200 phút/tuần
 
-[1 Giao bài đọc: 5']
+1 Giao bài đọc: 5'
 
-→ [2 Học sinh đọc: liên tục]
+→ 2 Học sinh đọc: liên tục
 
-→ [3 Giáo viên nghe từng học sinh + ghi lỗi: 150–200'] <-- bottleneck
+→ 3 Giáo viên nghe từng học sinh + ghi lỗi: 150–200' <-- bottleneck
 
-→ [4 Giao bài luyện tập: 15']
+→ 4 Giao bài luyện tập: 15'
 
-→ [5 Theo dõi tiến bộ: 30']
+→ 5 Theo dõi tiến bộ: 30'
 Draft future workflow
 FUTURE STATE — 30–45 phút/tuần
 
-[1 Học sinh đọc với AI Coach: 10–15']
+1 Học sinh đọc với AI Coach: 10–15'
 
-→ [2 AI phân tích phát âm + tốc độ đọc: tự động]
+→ 2 AI phân tích phát âm + tốc độ đọc: tự động
 
-→ [3 AI tạo feedback cá nhân: tự động]
+→ 3 AI tạo feedback cá nhân: tự động
 
-→ [4 Giáo viên xem dashboard + can thiệp nhóm yếu: 30'] <-- human boundary
+→ 4 Giáo viên xem dashboard + can thiệp nhóm yếu: 30' <-- human boundary
 
 Fallback:
 AI phát hiện không chắc chắn → chuyển giáo viên kiểm tra
